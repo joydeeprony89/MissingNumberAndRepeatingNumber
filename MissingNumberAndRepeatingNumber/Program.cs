@@ -17,6 +17,7 @@ namespace MissingNumberAndRepeatingNumber
             for (int i = 0; i < nums.Length; i++)
                 sum += i - nums[i];
             return sum;
+
         }
 
 
